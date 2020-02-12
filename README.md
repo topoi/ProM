@@ -1,4 +1,4 @@
-![Image](https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
+(https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
 ## Prosopographia Memphitica – A Prosopographical Database
 
 
