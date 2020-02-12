@@ -1,10 +1,11 @@
 ![](https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
 
-## Prosopographia Memphitica – A Prosopographical Database
+## Prosopographia Memphitica 
+– A Prosopographical Database
 
 
 Mein Gordon hat ne tolle Web Database gebaut
-Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/) ![Image](https://github.com/anneherz/ProM/blob/master/Logo_github.jpg)
+Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/) 
 
 
 ### Alles Klärchen
