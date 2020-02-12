@@ -2,7 +2,7 @@
 
 
 Mein Gordon hat ne tolle Web Database gebaut
-Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/) ![Image](src)
+Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/) ![Image](https://github.com/anneherz/ProM/blob/master/Logo_github.jpg)
 
 
 ### Alles Klärchen
