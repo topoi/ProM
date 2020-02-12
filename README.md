@@ -3,11 +3,9 @@
 ## Prosopographia Memphitica 
 ### – A Prosopographical Database
 
-##
-##
 
-Mein Gordon hat ne tolle Web Database gebaut
-Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/) 
+<p>Mein Gordon hat ne tolle Web Database gebaut.
+Hier ist meine [Web Database](https://topoi.github.io/NavigatorVersion1/designentwicklung/)</p>
 ###
 ###
 ### Alles Klärchen
