@@ -1,4 +1,5 @@
-![Image](https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
+![alt](https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
+<img src="https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg" alt="pups"" />
 
 ## Prosopographia Memphitica 
 ### – A Prosopographical Database
