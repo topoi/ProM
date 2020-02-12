@@ -1,7 +1,7 @@
 ![Image](https://github.com/anneherz/ProM/blob/master/Logo_Vs%202.jpg)
 
 ## Prosopographia Memphitica 
-## – A Prosopographical Database
+# – A Prosopographical Database
 
 
 Mein Gordon hat ne tolle Web Database gebaut
