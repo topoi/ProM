@@ -87,8 +87,14 @@ a.selected {
 <script>
 
 
-function show_networks()  {
-    $("#subm1,#subm2,#subm3,#subm4").show()
+  function show_networks()  {
+      if($("#subm1,#subm2,#subm3,#subm4").is(":hidden")){
+	  
+	  $("#subm1,#subm2,#subm3,#subm4").show()}
+      else if($("#subm1,#subm2,#subm3,#subm4").is(":visible")){
+	  
+	  $("#subm1,#subm2,#subm3,#subm4").hide()}
+      
 }
 function openNav() {
   document.getElementById("mySidenav").style.width = "300px";
