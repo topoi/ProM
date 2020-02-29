@@ -992,13 +992,16 @@ var bootstrap_select_dropdown_SelectDropdown = function ($) {
        */
 
     }, {
-      key: "_buildControlClear",
-      value: function _buildControlClear() {
-        return $('<a>', {
+	key: "_buildControlClear",
+	
+	value: function _buildControlClear() {
+       return $('<a>', {
           href: '#',
           "class": ClassName.ITEM
-        }).html(this._config.htmlClear);
+	}).html(this._config.htmlClear);
+	  
       }
+	
       /**
        * Build HTML: Deselect all element
        * @return {object} jQuery
