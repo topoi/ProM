@@ -100,7 +100,7 @@ function SelectionMenu(var1,par1,par2)
 		    $( "#selectrules1" ).css("opacity","1")
 		    $( ".mt-2.mb-3" ).hide()  
 		    $("#genders").css("opacity", "1")
-	       	    $( "#genders" ).append( "<strong>  "+f[index]+"     </strong>" );
+	       	    $( "#genders" ).append( "<strong>  "+f[index]+" -     </strong>" );
 		    selvalues[$.trim(f[index])]="gender"
 		}
 		
@@ -110,7 +110,7 @@ function SelectionMenu(var1,par1,par2)
 		    $( ".mt-2.mb-3" ).hide()  
 		    $("#originals").css("opacity", "1")
 		    $("#originalstext").css("opacity", "1")
-	       	    $( "#originals" ).append( "<strong>  "+f[index]+"     </strong>" );
+	       	    $( "#originals" ).append( "<strong>  "+f[index]+" -     </strong>" );
 		    selvalues[$.trim(f[index])]="name"
 		}
 	    })
