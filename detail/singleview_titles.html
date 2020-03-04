@@ -146,7 +146,7 @@ $.each(persons_arr, function( index, p ) {
    
  $tbody.append('<tr align="center"/>').children('tr:last')
     .append(string+p.person_id+"</a></td>")
-    .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.person_name+"</td>")
+    .append("<td class='aegypt'>"+p.person_name+"</td>")
     .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.person_name_translit+"</td>")
     .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.gender+"</td>")
 })
@@ -166,7 +166,7 @@ $.each(sametitle, function( index, p ) {
   string="<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'><a href='singleview_titles.html?ids="+p.ids+"&title="+p.title+"'>";
   $tbody.append('<tr align="center"/>').children('tr:last')
     .append(string+p.ids+"</td>")
-    .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.title+"</td>")
+    .append("<td class='aegypt'>"+p.title+"</td>")
     .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.english+"</td>")
     .append("<td style='font-size:12px; font-family: Arial, Helvetica, sans-serif'>"+p.gender+"</td>")
 

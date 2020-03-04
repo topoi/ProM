@@ -204,7 +204,7 @@ $.each(persons_arr, function( index, p ) {
    
  $tbody.append('<tr align="center"/>').children('tr:last')
     .append(string+p.person_id+"</a></td>")
-    .append("<td class='tdstyle'>"+p.person_name+"</td>")
+    .append("<td class='aegypt'>"+p.person_name+"</td>")
     .append("<td class='tdstyle'>"+p.person_name_translit+"</td>")
     .append("<td class='tdstyle'>"+p.gender+"</td>")
 })
@@ -224,7 +224,7 @@ string="<td class='tdstyle'><a href='singleview_titles.html?ids="+p.title_id+"'>
 
 $tbody.append('<tr align="center"/>').children('tr:last')
     .append(string+p.title_id+"</td>")
-    .append("<td class='tdstyle'>"+p.title+"</td>")
+    .append("<td class='aegypt'>"+p.title+"</td>")
     .append("<td class='tdstyle'>"+p.title_translat+"</td>")
     .append("<td class='tdstyle'>"+p.gender+"</td>")
 
@@ -245,7 +245,7 @@ $.each(samename, function( index, p ) {
   string="<td class='tdstyle'><a href='singleview_persons.html?ids="+p.ids+"&name="+p.name+"'>";
   $tbody.append('<tr align="center"/>').children('tr:last')
     .append(string+p.ids+"</td>")
-    .append("<td class='tdstyle'>"+p.name+"</td>")
+    .append("<td class='aegypt'>"+p.name+"</td>")
     .append("<td class='tdstyle'>"+p.englisch+"</td>")
   .append("<td class='tdstyle'>"+p.gender+"</td>")
 })
