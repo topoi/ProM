@@ -60,7 +60,10 @@ a.selected {
   <a href="#" id="subm2" style="font-size:15px" onclick="window.open('https://anneherz.github.io/Memphite-Tombs-II/')">Memphite Tombs II</a>
   <a href="#" id="subm3" style="font-size:15px" onclick="window.open('https://anneherz.github.io/Maya/')">Overseer of Treasury Maya</a>
   <a href="#" id="subm4" style="font-size:15px" onclick="window.open('https://anneherz.github.io/Treasury/')">Treasury</a>
-  <a href="#" onclick="window.open('detail/pivottablejs.html')">Statistics</a>
+  <a href="#" onclick="show_statistics()">Statistics</a>
+  <a href="#" id="subn0" style="font-size:15px" onclick="window.open('detail/tombs.html')">Tombs</a>
+  <a href="#" id="subn1" style="font-size:15px" onclick="window.open('detail/dating.html')">Dating</a>
+  
   <a href="#" onclick="window.open('detail/contact.html')">Contact</a>
   <a href="#" onclick="window.open('detail/conditions.html')">Terms & Conditions</a>
 </div>
@@ -98,6 +101,14 @@ function show_networks()  {
       else if($("#subm0,#subm1,#subm2,#subm3,#subm4").is(":visible")){
 	  $("#subm0,#subm1,#subm2,#subm3,#subm4").hide()}
 }
+function show_statistics()  {
+      if($("#subn0,#subn1").is(":hidden")){
+	  $("#subn0,#subn1").show()}
+      else if($("#subn0,#subn1").is(":visible")){
+	  $("#subn0,#subn1").hide()}
+}
+
+  
 function openNav() {
   document.getElementById("mySidenav").style.width = "300px";
 }
@@ -189,7 +200,8 @@ var parameters = getParameters();
 //#############################################
 
 $(document).ready(function(){
-    $("#subm0,#subm1,#subm2,#subm3,#subm4,#layout, #main_content_orig, #main_content_engl").hide()
+    $("#subm0,#subm1,#subm2,#subm3,#subm4,#subn0, #subn1,#layout, #main_content_orig, #main_content_engl").hide()
+    
     $.getScript( "dist/bootstrap-select-dropdown.js", function() {
 
     
