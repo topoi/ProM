@@ -43,7 +43,7 @@ function getValue(file){
    }).responseText;
    return value;
 }
-
+  bildverwaltung=$.parseJSON(getValue('../objects_images/Bildverwaltung_ProM.json'))
   persons=$.parseJSON(getValue('../data/persons.json'))
   persons_sel=persons[4]
   objects=$.parseJSON(getValue('../data/objects.json'))
@@ -61,21 +61,27 @@ function getValue(file){
   $('<li><a href="#selected" class="tocstyle">General Information</li>').appendTo('#toc');
   $('<h2 id="selected" class="h2style">GENERAL INFORMATION</h2>').appendTo('#Content');
 
-  $.each(images, function( index, value_image ) {
-      if (value_image.id == sel_record)
-         {
+
+  $.each(bildverwaltung, function( index, value_image ) {
+    
+
+      if (value_image.ID == sel_record.toString())
+      {
+
 	   $('#Content').append('<a target="_blank" rel="noopener noreferrer" id="external"><img id="image" class="Image" width="320"/></a>')
-           document.getElementById('image').setAttribute('src',value_image.link);
-           document.getElementById('external').setAttribute('href',value_image.weblink);
-           $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif">for gallery view click on the image</p>').appendTo('#Content');
-           $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif"><b>Holder: </b> '+(value_image.holder).toString()+'</p>').appendTo('#Content');
-           $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif"><b>Credits: </b> '+(value_image.credits).toString()+'</p>').appendTo('#Content');
+           document.getElementById('image').setAttribute('src',value_image.Link);
+	   if (value_image.Status == "online vorhanden") {
+	   document.getElementById('external').setAttribute('href',value_image.Collection);
+              $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif">for gallery view click on the image</p>').appendTo('#Content'); }
+	  
+           $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif"><b>Holder: </b> '+(value_image.Holder).toString()+'</p>').appendTo('#Content');
+           $('<p style="font-size:12px; font-family: Arial, Helvetica, sans-serif"><b>Credits: </b> '+(value_image.Credits).toString()+'</p>').appendTo('#Content');
            return false;
           }
          });
-        //loop 
-        
 
+
+       //loop 
        var sametype= [];
        
            $('<p class="pstyle"><b>ID: </b> '+(objects_sel[sel_record].id_objects).toString()+'</p>').appendTo('#Content');
