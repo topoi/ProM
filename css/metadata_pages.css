@@ -24,12 +24,19 @@
 *div.image {
     content:url(https://repositorytest.ancient-astronomy.org/PROM/ServicePROM/Images/PROM.jpg);
 
-.center {
+/*.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   
-}
+}*/
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}  
+    
 
 img {
     text-align: center;
